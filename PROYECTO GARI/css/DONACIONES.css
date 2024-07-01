@@ -1,0 +1,261 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    margin: 0 30px; 
+    border-bottom: 4px solid #646549;
+
+}
+
+.logo img {
+    width: 66Px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 80px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333 !important;
+    font-size: 20px;
+    font-weight: normal; 
+}
+
+
+nav ul li a[href="DONACIONES.html"] {
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Cuerpo*/
+
+main{
+    margin: 0 5em;
+}
+
+/*Div 1*/
+
+#phrase{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px !important;
+}
+
+.p1d1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+    text-align: justify;
+}
+
+.p1d2{
+    display: flex;
+    flex-direction: column;
+}
+
+.p1 h3{
+    text-align: center;
+    width: 35%;
+    background-color: #AC6537;
+    padding: 6px 3em;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+#prgh1, .btn-container{
+    padding-right: 5em;
+    padding-top: 1em;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#btn1{
+    border: 3px solid #656549;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 25%;
+    padding: 5px;
+    font-size: 15px;
+    color: #656549;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+}
+
+#imgd1{
+    max-width: 400px;
+
+}
+
+/*Div 2*/
+
+.p2{
+    padding-top: 2em;
+}
+
+.sbt2{
+    text-align: center;
+    width: 25%;
+    background-color: #656549;
+    padding: 6px 3em;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+#prgh2{
+    padding-top: 2em;
+}
+
+#sp1{
+    font-weight: 900;
+}
+
+.p2d1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.donate-container{
+    width: 15em;
+    border: 3px solid #656549;
+    border-radius: 20px;
+    margin: 2em 4em;
+    padding: 2em;
+    color: #646549;
+    text-align: center;
+}
+
+/*Div 3*/
+
+.p3 h3{
+    text-align: center;
+    width: 25%;
+    background-color: #C2ABB2;
+    padding: 6px 3em;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.p3d1{
+    display: flex;
+    flex-direction: row;
+}
+
+.p3d2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15em 0 2em;
+}
+
+#prgh3{
+    color: #49392C;
+    font-weight: 900;
+}
+
+#imgd2{
+    max-width: 170px;
+}
+
+/*DIv 4*/
+
+.p4{
+    padding-top: 2em;
+}
+
+.p4 h3{
+    text-align: center;
+    width: 20%;
+    background-color: #49392C;
+    padding: 6px 3em;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.p4d1{
+    display: flex;
+    flex-direction: row;
+}
+
+.p4d2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4em 0 2em;
+}
+
+#imgd3{
+    max-width: 550px;
+}
+
+/*Div 5*/
+
+.p5, .p6{
+    display: flex;
+    flex-direction: row;
+    padding: 2em 4em;
+    align-items: center;
+}
+
+.catfet-container{
+    width: 17em;
+    max-height: 170px;
+    border: 3px solid #646549;
+    border-radius: 20px;
+    margin: 2em 4em;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.sbt5{
+    color:#646549;
+}
+
+#imgd4, #imgd5{
+    max-width: 300px;
+    padding: 2em 6em;
+}
+
+/*Links*/
+a:link{
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #656549;
+    text-decoration: none;
+}

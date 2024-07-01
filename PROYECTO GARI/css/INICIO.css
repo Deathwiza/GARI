@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    margin: 0 30px; 
+    border-bottom: 4px solid #646549;
+}
+
+.logo img {
+    width: 66px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 80px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: normal; 
+}
+
+
+nav ul li a[href="INICIO.html"] {
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bienvenida {
+    display: flex;
+    align-items: center;
+    margin: 0 5em;
+}
+
+.bienvenida img {
+    width: 580px;
+}
+
+.texto-bienvenida {
+    max-width: 800px;
+    margin-top: 10px;
+    text-align: justify; 
+    line-height: 1.7; 
+    margin-left: 30px;
+}
+
+.texto-bienvenida h1 {
+    font-size: 55px;
+    color: #3B1F0B;
+    text-align: center;
+    letter-spacing: 4px; 
+}
